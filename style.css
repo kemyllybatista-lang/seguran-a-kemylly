@@ -1,6 +1,6 @@
 :root{
     --primeira:#003366;
-    --ssegundaria:#ffcc00
+    --ssegundaria:#ffcc00;
     --perigo:#cc0000;
     --texto:#1a1a1a;
     --fundo:#ffffff;
@@ -8,7 +8,7 @@
 }
 
 {
-    box-sizing:boder-box;
+    box-sizing:border-box;
     margin:0;
     padding:0;
 }
@@ -39,8 +39,46 @@ body{
 .botao-controle{
     background:white;
     color:#333;
-
     border:2px solid var(--secundaria);
     padding:10px 15px;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius: 8px;
+    font-size:1 rem;
+    display:flex;
+    align-items:center;
+    gap:8px;
     
+}
+.botao-controle:hover{
+    background:var(--segundaria);
+}
+
+.botao-leitura{
+    background:#28a745;
+    color: white;
+    border:none;
+}
+.banner{
+    background-color: var(--primeira);
+    color:white;
+    padding:50px 20px;
+    text-align:center ;
+    border-battom:10px solid var(--segundaria);
+}
+.banner h1{
+    font-size:2.5rem;
+    margin: bottom 20px;
+    padding-top:70px;
+}
+.botao-ajuda{
+    display:inline-block;
+    background-color: var(--perigo);
+    color: white;
+    padding:20px 40px;
+    text-decoration:none;
+    font-weight: bold;
+    border:4px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition:transform 0.2s;
 }

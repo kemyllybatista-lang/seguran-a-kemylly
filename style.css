@@ -82,3 +82,6 @@ body{
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     transition:transform 0.2s;
 }
+.botao-ajuda:active{
+transform:scale(0.95);
+        

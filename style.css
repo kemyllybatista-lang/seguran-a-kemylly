@@ -107,5 +107,55 @@ transform:scale(0.95);
      border:2px dashed var(--primeira);
      position:relative;
      top:50%;
+     left:50%;
+     transform:translate(-50%.50%);
+     max-width: 90%;
+     width: 600px;
+     margin:0!important;
 
-}  
+} 
+    ol{
+padding:40px;
+    } 
+    h2{
+        color:var(--primeira);
+        border-bottom: 4px solid var(--segundaria);
+        margin:40px 020px;
+        padding-bottom: 10px;
+        font-size: 2rem;
+    }
+    .grande dica{
+        display:grid;
+        gap:20px;
+    }
+    .carao-dica{
+        background:var(--fundo-cartao) ;
+        padding:20px;
+        border-radius:15px;
+        border-left: 15px solid var(--primeira);
+    }
+    .cartao-dica strong {
+        display: block;
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+        color:var(--primeira);
+
+    }
+.caixa-direitos{
+    background-color: #fff9e6;
+    padding: 40px;
+    border-radius: 15px;
+    border: 2px dashed(--primeira);
+
+}
+
+.caixa-direitos p{
+    margin-bottom: 15px;
+
+}
+.alerta-golpe{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: 20px;
+}
